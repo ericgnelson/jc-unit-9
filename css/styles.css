@@ -1,0 +1,118 @@
+body {
+	font-family: "Helvetica-Neue", arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main {}
+
+section {
+	width: 100%;
+	padding: 2em 0;
+}
+
+h1 {
+	font-size: 6em;
+	margin: 0;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	width: 50%;
+	background: #eeeeee;
+	padding: .5em;
+}
+tbody {
+	width: 100%;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+
+input {
+	width: 68%;
+	margin: .5em 0 .5em 2%;
+	border: 1px solid #cccccc;
+	padding: .5em;
+	line-height: 1.5em;
+	max-width: 400px;
+	display: inline-block;
+}
+label {
+	width: 26%;
+	text-align: right;
+	display: inline-block;
+}
+
+button {
+	padding: .5em 1em;
+	background: #333333;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 600;
+	border: none;
+	outline: none;
+	width: 71%;
+	float: right;
+	display: block;
+}
+.content-container {
+	width: 96%;
+	margin: 0 auto;
+	max-width: 1000px;
+	display: block;
+	clear: both;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+
+header {
+	width: 100%;
+	height: 200px;
+	background: url('../images/toms-restaurant.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	display: block;
+}
+
+header h1,
+header p {
+	color: #ffffff;
+	display: block;
+}
+
+.make-reservation {
+	width: 44%;
+	padding: 2em 2%;
+	display: inline-block;
+	float: left;
+}
+
+.view-reservations {
+	width: 44%;
+	padding: 2em 2%;
+	display: inline-block;
+	float: right;
+}
+
+.maps-container {
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
